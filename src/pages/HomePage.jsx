@@ -6,7 +6,7 @@ const HomePage = () => {
   const [value, setValue] = useState();
 
   const onJoinRoom = useCallback(() => {
-    navigate(`/room${value}`);
+    navigate(`/room/${value}`);
   }, [navigate, value]);
 
   return (

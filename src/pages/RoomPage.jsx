@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
+import { useParams } from "react-router-dom";
 
 const RoomPage = () => {
-  return (
-    <div>RoomPage</div>
-  )
-}
+  const { roomId } = useParams();
+  return <div>RoomPage{roomId}</div>;
+};
 
-export default RoomPage
+export default RoomPage;
