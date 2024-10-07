@@ -19,7 +19,7 @@ const RoomPage = () => {
         zc.joinRoom({
             container: element,
             sharedLinks: [
-                { name: "Copy Link", url: `http://localhost:3001/room/${roomId}` },
+                { name: "Copy Link", url: `http://localhost:3000/room/${roomId}` },
             ],
             scenario: {
                 mode: ZegoUIKitPrebuilt.OneONoneCall,
